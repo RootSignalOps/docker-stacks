@@ -1,6 +1,14 @@
 # Dozzle Stack
 
-Reverse proxy manager with automatic SSL support.
+Real-time Docker log viewer with a lightweight interface.
+
+## Features
+
+- Live container logs
+- Lightweight UI
+- Multi-container support
+- Fast log streaming
+- Docker integration
 
 ## Run
 
@@ -10,4 +18,8 @@ docker compose up -d
 
 ## Access
 
-http://SERVER-IP:81
+http://SERVER-IP:8080
+
+## Notes
+
+Requires access to the Docker socket.
