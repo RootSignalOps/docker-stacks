@@ -1,6 +1,14 @@
 # Uptime Kuma Stack
 
-Simple Docker Compose setup for Uptime Kuma.
+Self-hosted uptime monitoring with a clean web interface and status tracking.
+
+## Features
+
+- Uptime monitoring
+- HTTP/TCP/Ping checks
+- Notifications
+- Status pages
+- Docker support
 
 ## Run
 
@@ -11,3 +19,7 @@ docker compose up -d
 ## Access
 
 http://SERVER-IP:3001
+
+## Notes
+
+Persistent data is stored in the local `data` directory.
