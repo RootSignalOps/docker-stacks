@@ -1,6 +1,14 @@
 # Grafana Stack
 
-Network-wide ad blocking with Pi-hole.
+Visualization and monitoring platform for metrics and logs.
+
+## Features
+
+- Dashboards
+- Metrics visualization
+- Alerting
+- Prometheus integration
+- Real-time monitoring
 
 ## Run
 
@@ -10,4 +18,8 @@ docker compose up -d
 
 ## Access
 
-http://SERVER-IP:8080
+http://SERVER-IP:3000
+
+## Notes
+
+Default credentials should be changed after first login.
