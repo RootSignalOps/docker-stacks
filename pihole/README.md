@@ -1,6 +1,14 @@
 # Pi-hole Stack
 
-Network-wide ad blocking with Pi-hole.
+Network-wide ad blocking and DNS filtering.
+
+## Features
+
+- Ad blocking
+- DNS filtering
+- Local DNS records
+- Network monitoring
+- Privacy protection
 
 ## Run
 
@@ -10,4 +18,8 @@ docker compose up -d
 
 ## Access
 
-http://SERVER-IP:8080
+http://SERVER-IP/admin
+
+## Notes
+
+Pi-hole should use a static IP address.
