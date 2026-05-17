@@ -1,6 +1,14 @@
 # Watchtower Stack
 
-Reverse proxy manager with automatic SSL support.
+Automatically updates running Docker containers.
+
+## Features
+
+- Automatic updates
+- Image monitoring
+- Scheduled checks
+- Lightweight operation
+- Docker integration
 
 ## Run
 
@@ -8,6 +16,6 @@ Reverse proxy manager with automatic SSL support.
 docker compose up -d
 ```
 
-## Access
+## Notes
 
-http://SERVER-IP:81
+Watchtower periodically checks for new container images.
